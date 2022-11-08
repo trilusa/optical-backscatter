@@ -1,0 +1,10 @@
+This is the realtime processing code that runs on the BBB. 
+
+The makefile requires the PRU makefile loacated in the common/ directory on the BBB default OS.
+For more information, got to Derek Malloy's BBB PRU Developement Guide
+
+To compile run
+>> source setup.sh
+This initializes the pins.
+>> make demo
+This will start a program that looks at frequency of readings from the photodiode.
